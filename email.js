@@ -15,3 +15,10 @@ if(emailRegExUc2.test(email)) {
 } else {
     console.log("UC2: Email: "+email+" is Invalid.");
 }
+// UC3
+var emailRegExUc3 =new RegExp("^[a-zA-Z0-9]+@[a-zA-Z0-9]+(?:.[a-zA-Z0-9]+)$");
+if(emailRegExUc3.test(email)) {
+    console.log("UC3: Email: "+email+" is Valid.");
+} else {
+    console.log("UC3: Email: "+email+" is Invalid.");
+}
