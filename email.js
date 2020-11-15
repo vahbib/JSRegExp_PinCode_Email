@@ -22,3 +22,10 @@ if(emailRegExUc3.test(email)) {
 } else {
     console.log("UC3: Email: "+email+" is Invalid.");
 }
+// UC4
+var emailRegExUc4 =new RegExp("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+(?:.[a-zA-Z0-9]+)$");
+if(emailRegExUc4.test(email)) {
+    console.log("UC4: Email: "+email+" is Valid.");
+} else {
+    console.log("UC4: Email: "+email+" is Invalid.");
+}
