@@ -22,3 +22,10 @@ if(pinCodeRegExUc3.test(pin)) {
 } else {
     console.log("UC3: Pin Code: "+pin+" is Invalid.");
 }
+// UC4
+var pinCodeRegExUc4 =new RegExp("^[0-9]{3}\s{0,1}[0-9]{3}$");
+if(pinCodeRegExUc4.test(pin)) {
+    console.log("UC4: Pin Code: "+pin+" is Valid.");
+} else {
+    console.log("UC4: Pin Code: "+pin+" is Invalid.");
+}
